@@ -12,7 +12,6 @@ for i in range(t):
 		tempo = tempo + 1
 		PA = PA + (PA * G1) // 100
 		PB = PB + (PB * G2) // 100
-		print(PA, PB, tempo)
 
 	if tempo > 100:
 		print("Mais de 1 seculo.")
