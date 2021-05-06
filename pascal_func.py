@@ -20,9 +20,9 @@ def imprimeTrianguloPascal(m):
 
 def main():
 
-	m = int(input())
+	linhas = int(input())
 
-	imprimeTrianguloPascal(m)
+	imprimeTrianguloPascal(linhas)
 
 
 main()
