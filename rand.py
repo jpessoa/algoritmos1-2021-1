@@ -1,9 +1,8 @@
 import random
 
 i = 0
-while i < 10:
-	n = random.random() * 5.0
-	print(f"{n}")
+while i < 1000000:
+	n = random.randint(1, 6)
+	# n = random.random() * 30 + -1
+	print(f"{n}", end=" ")
 	i += 1
-
-# Como gerar um float no intervalo [0.0, 5.0) ?/
